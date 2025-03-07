@@ -1,5 +1,5 @@
 getData = () => {
-    fetch("http://localhost:3000/posts")
+    fetch("https://silk-scandalous-boa.glitch.me/posts")
     .then(response => {
         console.log("data : ", response);
     })
