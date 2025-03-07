@@ -1,7 +1,8 @@
 getData = () => {
     fetch("https://silk-scandalous-boa.glitch.me/posts")
-    .then((response) => {
-        console.log("data : ", response.json());
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
     })
     .catch((error) => {
         console.log("error : ", error);
