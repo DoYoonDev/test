@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DoYoonDev/test#readme",
   "description": {
     "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
