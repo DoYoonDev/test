@@ -7,3 +7,5 @@ getData = () => {
         console.log("error : ", error);
     })
 }
+
+getData();
